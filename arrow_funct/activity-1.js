@@ -15,17 +15,25 @@ function greet(name) {
 // 3. Write it without parentheses for the single parameter
 // 4. Test all three versions with your name
 
+const greet = (name) => "hello," + name + "!";
+
 // ============================================================================
 // Problem 2: Arrow Function with Multiple Parameters
 // Create an arrow function called 'calculateArea' that takes two parameters 
 // (length and width) and returns the area of a rectangle.
 // ============================================================================
 
+function calculateArea(area){
+    return length * innerWidth;
+}
 // Your task:
 // 1. Write calculateArea as a one-liner with implicit return
 // 2. Write calculateArea with explicit return statement
 // 3. Test both with length=5, width=10
 // 4. Explain when you would use each version
+
+
+const calculateArea = (area) => length * innerWidth;
 
 // ============================================================================
 // Problem 3: Arrow Function in Array Methods
